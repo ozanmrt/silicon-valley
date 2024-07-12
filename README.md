@@ -1,2 +1,1 @@
-# silicon-valley
-History of Silicon Valley
+# A history template designed with HTML CSS and JavaScript
