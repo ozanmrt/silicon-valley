@@ -1,0 +1,131 @@
+.wrapper {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+	background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 50px 40px;
+
+}
+.wrapper.open {
+  transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.wrapper section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.wrapper section h1 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.wrapper section h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.wrapper section p {
+  margin-bottom: 40px;
+}
+.openNav {
+  transition-duration: 0.5s;
+  transition-timing-function: swing;
+  width: 50px;
+  height: 50px;
+  background-color: #5B5893;
+  position: absolute;
+  top: 690px;
+  left: 20px;
+  z-index: 9;
+
+}
+
+.openNav:hover {
+  cursor: pointer;
+}
+
+.openNav .icon {
+  transition-duration: 0.2s;
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  top: 24px;
+  left: 10px;
+}
+.openNav .icon:before,
+.openNav .icon:after {
+  transition-duration: 0.5s;
+  background-color: white;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  left: 0px;
+}
+.openNav .icon:before {
+  top: -7px;
+}
+.openNav .icon:after {
+  top: 7px;
+}
+.openNav .open {
+	display: block !important;
+  /*transform: translateX(250px) translateY(50px);
+  -webkit-transform: translateX(250px) translateY(50px);*/
+}
+.openNav.open .icon {
+  background-color: transparent;
+}
+.openNav.open .icon:before,
+.openNav.open .icon:after {
+  top: 0;
+}
+.openNav.open .icon:before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.openNav.open .icon:after {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+#sol-menu {
+ 
+	margin-top: 70px;
+	position: absolute;
+	display:none;
+	background:white;
+	padding:5px;
+	border-radius:8px;
+	box-shadow:0 0 8px #333;
+}
+#sol-menu ul {
+  width: 250px;
+  
+}
+#sol-menu ul:hover li {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+#sol-menu ul li a{
+  display: block;
+  padding: 5px 2px;
+  color: #594042;
+  text-decoration: none;
+	text-align: left;
+}
+
+#sol-menu-yazi-boyutu a{
+	font-size: 15px;
+}
+
+#sol-menu ul li a:hover {
+  color: #5B5893;
+	font-weight: bold;
+}
+
+

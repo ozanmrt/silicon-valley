@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Silikon Vadisi</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="baglantilar" -->
+<link href="../css/stil.css" rel="stylesheet" type="text/css">
+<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+    $(function() {
+        $("#top").click(function() {
+            $("html,body").stop().animate({ scrollTop: "0" }, 1000);
+        });
+    });
+    $(window).scroll(function() {
+        var uzunluk = $(document).scrollTop();
+        if (uzunluk > 300) $("#top").fadeIn(500);
+        else { $("#top").fadeOut(500); }
+    });
+</script>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="satir-1">
+	<nav class="nav">
+		<ul class="nav__menu">
+                <li class="nav__menu-item"><a href="../index.html"><i class="fa fa-home"></i> Ana Sayfa</a></li>
+				<li class="nav__menu-item" id="sirketler"><i class="fa fa-star"></i> Şirketler
+                    <ul class="nav__submenu"> 
+                      <li class="nav__submenu-item"><a href="../apple.html">Apple</a></li>
+                        <li class="nav__submenu-item"><a href="../google.html">Google</a></li>
+                        <li class="nav__submenu-item"><a href="../adobe.html">Adobe</a></li>
+                        <li class="nav__submenu-item"><a href="../intel.html">Intel</a></li>
+                        <li class="nav__submenu-item"><a href="../yahoo.html">Yahoo!</a></li>
+                    </ul>
+                </li>
+               
+                <li class="nav__menu-item"><a href="../galeri.html"><i class="fa fa-picture-o"></i> Galeri</a></li>
+                <li class="nav__menu-item"><a href="../iletisim.html"><i class="fa fa-envelope-o"></i> İletişim</a></li>
+            </ul>
+		<div class="temizle"></div>
+	</nav><!--menu sonu-->
+</div><!--satir-1 sonu-->
+<!-- TemplateBeginEditable name="orta" --> 
+	
+<div id="satir-2">
+  <h1>Silikon Vadisi</h1>
+	<p id="buton"><a href="#basla">Keşfe Başla</a></p>
+</div><!--satir-2 sonu-->
+	<div class="openNav">
+  <div class="icon"></div>
+	<nav id="sol-menu">
+  <ul>
+	  
+    <li><a href="#silikon-vadisi-nedir">Silikon Vadisi Nedir?</a></li>
+    <li><a href="#silikon-vadisinin-tarihi-gelisimi">Silikon Vadisi'nin Tarihi Gelişimi</a></li>
+    <li><a href="#silikon-vadisinde-calismalar-nasil-ilerliyor">Çalışmalar Nasıl İlerliyor</a></li>
+    <li><a href="#silikon-vadisindeki-ilk-150-firma">Silikon Vadisi'ndeki İlk 150 Firma</a></li>
+
+  </ul>
+</nav>
+
+</div>
+	<div class="wrapper" id="basla">
+	<section id="satir-3">
+		
+<h1 id="silikon-vadisi-nedir">Silikon Vadisi Nedir?</h1>
+<br>
+<p><img class="orta-resim" src="../resimler/silikon-vadisi_001.png" alt="Silikon Vadisi Yeri">Orijinal ismi <strong>“Silicon Valley”</strong> olan büyük teknoloji şirketlerine ev sahipliği yapan vadi, <strong>Amerika Birleşik Devletleri’nin Kaliforniya eyaletindeki San Francisco Vadisi‘nin içerisinde bulunuyor.</strong> Vadide içlerinde Türk şirketlerinin de bulunduğu birçok büyük şirketin araştırma ve geliştirme merkezleri bulunmaktadır.</p>
+<p>Dünyanın teknoloji merkezi olarak değerlendirilen Silikon Vadisi, Güney Kaliforniya’daki San Francisco Vadisi’nin bir parçası olan San Jose Vadisi’ne verilen isimdir. <strong>Bu ismin sebebi ise, bölgede önceleri yoğun olarak üretim ve geliştirme faaliyetinde bulunan silikon çip üreticileridir.</strong> Sonradan ise yüksek teknoloji ile ilgili sektörleri ifade etmek için kullanılan bir deyim olmuştur .</p>
+<p>Silikon Vadisi; üniversitelerin, teknoloji devlerinin ve araştırma kuruluşlarının bir araya geldiği dev bir teknoloji bölgesidir. Daha çok tasarım ve mühendislik vadisi diye de anılmaktadır. Vadi araştırma ve geliştirme faaliyetlerinin, ileri teknolojinin ve elektroniğin en yoğun şekilde kullanıldığı alan olup amaç yarı iletken teknolojilerin geliştirilmesidir. Uluslararası teknolojik firmaların merkezi burasıdır.</p>
+<br>
+<h1 id="silikon-vadisinin-tarihi-gelisimi">Silikon Vadisi’nin Tarihi Gelişimi</h1>
+<br>
+<p>Silikon Vadisi’nin tarihi gelişimi <strong>Stanford Üniversitesi</strong>‘nin kuruluşuyla başlıyor diyebiliriz. Bölgede bulunan zengin altın yatakları ve üretime dayalı çalışmalar, girişimcileri Kaliforniya eyaletinin kuzeyinde yer alan <strong>San Jose Vadisi</strong>‘ne çekmeyi başarmıştı. Bu gelişmeler Vali Leland Stanford’u harekete geçirdi. 1891 yılında <strong>“Özgürlük havası esiyor.”</strong> sloganı altında tam ismiyle  <strong>Leland Stanford Junior Üniversitesi</strong> olan Stanford Ünivetsitesi’ni kurdu. Günümüzde dünyanın en büyük bütçesine sahip 3 üniversitesinden biri konumuna gelen Stanford Üniversitesi; <strong>HP, Cisco, Google, Yahoo! </strong>gibi dünya devlerinin de çıkış noktası.</p>
+<p><img class="orta-resim" src="../resimler/silikon-vadisi_002.jpg" alt="Silikon Vadisi">
+Stanford Üniversitesi’nin Silikon Vadisi’ne kazandırdığı ilk değer ise <strong>Bill Hewlett</strong> ve <strong>David Packard</strong> oldu. Bill Hewlett ve David Packard, üniversiteden mezun olduktan kısa bir süre sonra üniversitenin yakınlarındaki bir garajda <strong>HP şirketi</strong>ni kurdular. Sonrasındaki büyük patlama ise Stanford Üniversitesi dekanı sayesinde gerçekleşti. <strong>Stanford Üniversitesi dekanı</strong>, üniversite çevresinde bulunan boş arazileri teknoloji alanında çalışmalar yapan girişimcilere sattı. Bu girişimciler arasında günümüzün dünya devleri arasında bulunan <strong>Kodak</strong> gibi şirketler yer almaktaydı.</p>
+<p>Silikon Vadisi’ni taçlandıran girişimciler ise <strong>ilk yarı iletken transistörü</strong> icat eden William Shockley, John Bardeen ve Walter Brattain oldu. <strong>1956</strong> yılında ortaya koyulan bu icat, Silikon Vadisi’ndeki William Shockley, John Bardeen ve Walter Brattain üçlüsüne <strong>Nobel Fizik ödülü</strong> kazandırdı.</p>
+<p><strong>1957</strong> yılında yaşanan bir gelişme ise Silikon Vadisi’nde teknolojinin ne kadar hızlı ilerlediğini göstermekteydi. <strong>Hain Sekizli</strong> olarak bilinen Jean Hoerni, Julius Blank, Victor Grinich, Eugene Kleiner, Gordon Moore, Sheldon Roberts, Jay Last, Robert Noyce; yarı iletken transistörü bir adım daha öteye taşıdılar. Daha sonrasında bu Hain Sekizli’den ayrılan <strong>Robert Noyce</strong> ve <strong>Gordon Moore, 1968 yılında <a class="link" href="#">Intel</a> firmasını kurdular.</strong></p>			
+<p><img class="orta-resim" src="../resimler/silikon-vadisi_003.png" alt="Intel Kurucuları">
+Intel’in kurulması birçok şeyin de önünü açmıştı. <strong>Silikon Vadisi</strong>‘ndeki rekabet iyice kızışmış. Mucitler var gücüyle teknolojik çalışmalarını sürdürmeye çalışıyordu. Intel bu çalışmaların meyvesini 1971 yılında ürettiği<strong> ilk mikroişlemci</strong> olan <strong>Intel 4004</strong> ile aldı. Bir yıl sonra ise LAN teknolojisini üreten Intel, ipleri yavaş yavaş eline almaya başladı.</p>
+<p><img class="orta-resim" src="../resimler/silikon-vadisi_004.jpg" alt="Intel 4004"><strong>1976</strong>‘da bir dev daha doğdu <strong>Steve Jobs</strong> ve <strong>Steve Wozniak</strong> isimli iki genç Silikon Vadisi yakınlarındaki Cupertino’da <strong><a class="link" href="#">Apple</a></strong>‘ı kurdu. İlk bilgisayarlarını burada satmaya başlayan Apple, günümüzde teknoloji zirvesinin ortaklarından.</p>
+<br>
+<p><img class="orta-resim" src="../resimler/silikon-vadisi_005.jpg" alt="Apple Kurucuları">Takvim yaprakları <strong>1994</strong> yılını gösterdiğinde <strong>Stanford Ünivertsitesi</strong> öğrencilerinden <strong>Jerry Yang</strong> ve <strong>David Filo, <a class="link" href="#">Yahoo!</a> arama motoru</strong>nu geliştirdi. 1995 yılında şirket haline gelen Yahoo! zamanla elektronik posta alanında da kendini geliştirdi.</p>
+<p>1998 yılında Yahoo!’ya bir rakip doğdu. <strong>Sergie Prin</strong> ve <strong>Larry Page</strong> adında iki genç <strong><a class="link" href="#">Google</a></strong>‘ı kurdu ve zirveye yerleşti.</p>
+<p>Yakın tarihe gelecek olursak <strong>2004</strong> yılında internet dünyasına merhaba diyen <strong>Facebook</strong>‘un kurucusu Zuckerberg de Silikon Vadisi’nin yolunu tutanlar arasındaki yerini almayı başardı.</p>
+<h1 id="silikon-vadisinde-calismalar-nasil-ilerliyor">Silikon Vadisi’nde Çalışmalar Nasıl İlerliyor?</h1>
+<br>
+<p>Dünyanın en zeki mühendislerinin bulunduğu Silikon Vadisi’nde sosyal hayat ve teknolojiyi bir arada görmek mümkün. Şirketlerin çalışma alanları ve olanakları üst düzey. Spor salonları, oyun ve aktivite alanlarıyla Silikon Vadisi’nde mühendisler çalışırken eğlenmeyi de başarıyor. Bununla beraber büyük bir teknolojik savaş da boy gösteriyor. Şirketler arasındaki mücadele oldukça büyük.</p>
+<br>
+<p>Mühendisler ise bu mücadeleden büyük kazançlar elde ediyor. Silikon Vadisi’nde sözleşmeli mühendis çalışmıyor diyebiliriz. Çünkü yarın hangi mühendisin hangi firmaya gideceği bilinmez. Bir mühendisinin aylık geliri ise ortalama 100.000$.</p>
+<br>
+<h1 id="silikon-vadisindeki-ilk-150-firma">Silikon Vadisi’ndeki İlk 150 Firma</h1>
+<br>
+<table cellspacing="0">
+<tr>
+<th>Sıralama</th>
+<th>Firma Adı</th>
+<th>Sektör</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Apple</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Google</td>
+<td>Web</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Oracle</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Intel</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Cisco Systems</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>6</td>
+<td>eBay</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>7</td>
+<td>VMware</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hewlett-Packard</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Gilead Sciences</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Intuitive Surgical</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Salesforce.com</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Yahoo!</td>
+<td>Web</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Intuit</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Adobe Systems</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>15</td>
+<td>NetApp</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Applied Materials</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Agilent Technologies</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Symantec</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Altera</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Juniper Networks</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>21</td>
+<td>SanDisk</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>22</td>
+<td>LinkedIn</td>
+<td>Web</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Xilinx</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Zynga</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Nvidia</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>26</td>
+<td>KLA-Tencor</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Maxim Integrated Products</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Varian Medical Systems</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Linear Technology</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Equinix</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Trimble Navigation</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Netflix</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Informatica</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Advanced Micro Devices</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>35</td>
+<td>VeriFone Systems</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Electronic Arts</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Lam Research</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Tibco Software</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>39</td>
+<td>LSI</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Synopsys</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Atmel</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Riverbed Technology</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Fortinet</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Dolby Laboratories</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Tesla Motors</td>
+<td>Çevreci Teknoloji</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Rovi</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Novellus Systems</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>48</td>
+<td>NetSuite</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>49</td>
+<td>Polycom</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>50</td>
+<td>JDS Uniphase</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>51</td>
+<td>Ariba</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Cadence Design Systems</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Ubiquiti Networks</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Cepheid</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Brocade Communications</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Aruba Networks</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>57</td>
+<td>Cypress Semiconductor</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>58</td>
+<td>Onyx Pharmaceuticals</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>59</td>
+<td>Align Technology</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>60</td>
+<td>Thoratec</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>61</td>
+<td>Fairchild Semiconductor</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>62</td>
+<td>Finisar</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>63</td>
+<td>Pandora Media</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>64</td>
+<td>PMC &#8211; Sierra</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Impax Laboratories</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>66</td>
+<td>Cavium</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>67</td>
+<td>Tivo</td>
+<td>Eğlence</td>
+</tr>
+<tr>
+<td>68</td>
+<td>InvenSense</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>69</td>
+<td>Netgear</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>70</td>
+<td>Intersil</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>71</td>
+<td>Synnex</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>72</td>
+<td>Coherent</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>73</td>
+<td>Advent Software</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>74</td>
+<td>Synaptics</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>75</td>
+<td>ServiceSource</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>76</td>
+<td>Shutterfly</td>
+<td>Web</td>
+</tr>
+<tr>
+<td>77</td>
+<td>Power Integrations</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>78</td>
+<td>Omnivision Technologies</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>79</td>
+<td>Integrated Device Technology</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>80</td>
+<td>iGate</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>81</td>
+<td>Sanmina-SCI</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>82</td>
+<td>OpenTable</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>83</td>
+<td>Genomic Health</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>84</td>
+<td>Tessera Technologies</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>85</td>
+<td>Infinera</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>86</td>
+<td>Volterra Semiconductor</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>87</td>
+<td>Exelixis</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>88</td>
+<td>Electronics for Imaging</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>89</td>
+<td>Ultratech</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>90</td>
+<td>SunPower</td>
+<td>Çevreci Teknoloji</td>
+</tr>
+<tr>
+<td>91</td>
+<td>Spansion</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>92</td>
+<td>Rambus</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>93</td>
+<td>Super Micro Computer</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>94</td>
+<td>Monolithic Power Systems</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>95</td>
+<td>Harmonic</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>96</td>
+<td>Abaxis</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Micrel</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>98</td>
+<td>Quantum</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>99</td>
+<td>Leapfrog Enterprises</td>
+<td>IT &#8211; Tüketici</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Responsys</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Omnicell</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Accuray</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Silicon Image</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>104</td>
+<td>QuinStreet</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>105</td>
+<td>OCZ Technology Group</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>106</td>
+<td>Conceptus</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>107</td>
+<td>Nanometrics</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>108</td>
+<td>Applied Micro Circuits</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>109</td>
+<td>IXYS</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>110</td>
+<td>Exar</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>111</td>
+<td>Sciclone Pharmaceuticals</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>112</td>
+<td>Extreme Networks</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>113</td>
+<td>Natus Medical</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>114</td>
+<td>Depomed</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>115</td>
+<td>Keynote Systems</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>116</td>
+<td>Oplink Communicationss</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>117</td>
+<td>Actuate</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>118</td>
+<td>Silicon Graphics</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>119</td>
+<td>Integrated Silicon Solution</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>120</td>
+<td>Affymetrix</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>121</td>
+<td>TeleNav</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>122</td>
+<td>Saba Software</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>123</td>
+<td>Formfactor</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>124</td>
+<td>ShoreTel</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>125</td>
+<td>Callidus Software</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>126</td>
+<td>Symmetricom</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>127</td>
+<td>Alpha &amp; Omega Semiconductor</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>128</td>
+<td>Epocrates</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>129</td>
+<td>AXT</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>130</td>
+<td>Oclaro</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>131</td>
+<td>Intevac</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>132</td>
+<td>Openwave Systems</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>133</td>
+<td>Pericom Semiconductor</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>134</td>
+<td>Echelon</td>
+<td>IT &#8211; Kurumsal</td>
+</tr>
+<tr>
+<td>135</td>
+<td>Solta Medical</td>
+<td>Sağlık</td>
+</tr>
+<tr>
+<td>136</td>
+<td>PLX Technology</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>137</td>
+<td>Ultra Clean</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>138</td>
+<td>Sigma Designs</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>139</td>
+<td>Mattson Technology</td>
+<td>Semiconductor ve Yan Sanayi</td>
+</tr>
+<tr>
+<td>140</td>
+<td>Ipass</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>141</td>
+<td>DSP Group</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>142</td>
+<td>Opnext</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>143</td>
+<td>Codexis</td>
+<td>Çevreci Teknoloji</td>
+</tr>
+<tr>
+<td>144</td>
+<td>GSI Technology</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>145</td>
+<td>NeoPhotonics</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>146</td>
+<td>Meru Networks</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>147</td>
+<td>Trident Microsystems</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>148</td>
+<td>Ikanos Communicationss</td>
+<td>Semiconductor</td>
+</tr>
+<tr>
+<td>149</td>
+<td>Zhone Technologies</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+<tr>
+<td>150</td>
+<td>Dialogic</td>
+<td>Network ve Telekomünikasyon</td>
+</tr>
+</table>
+ </section><!--satir-3 sonu-->
+		</div>
+<!-- TemplateEndEditable -->
+
+	
+<div id="satir-4">
+	<footer id="alt">
+		<div id="alt-sol">
+		ozanmert.webpanosu.net &copy; 2018
+	  </div>
+		<div id="alt-sag">
+			<ul>
+    
+    <li class="google"><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+    <li class="instagram"><a href="https://instagram.com/ozanmert0" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+	<li class="twitter"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>		
+	<li class="facebook"><a href="https://www.facebook.com/Ozanmertakdiken" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+  </ul>
+		</div>
+		<div class="temizle"></div>
+	</footer>
+</div>
+<!-- TemplateBeginEditable name="baglantilar2" -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="../js/index.js"></script>
+	<div id="top">
+    <img width="60" height="60" src="../resimler/yukari-cik.png" />
+	
+</div>
+	<!-- TemplateEndEditable -->
+</body>
+</html>
+
+
+
+
+
